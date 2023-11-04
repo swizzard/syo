@@ -1,0 +1,18 @@
+{
+  "name": "seed",
+  "packageManager": "yarn@4.0.1",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^20.8.10",
+    "@types/pg": "^8.10.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "8.2.0",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "seed": "yarn ts-node ./src/index.ts"
+  }
+}
